@@ -1,5 +1,9 @@
-
 # Robot-Educativo — Setup y ejecución
+
+## Proyecto de Arquitectura de Computadoras
+Este proyecto forma parte del curso de Arquitectura de Computadoras.
+
+---
 
 Este README explica cómo crear y activar un entorno virtual en Windows (cmd.exe), instalar las dependencias desde `requirements.txt` y ejecutar el menú principal `main.py`.
 
@@ -11,11 +15,11 @@ Si todavía no tienes el código en tu máquina, clona el repositorio desde GitH
 cd %USERPROFILE%\Downloads
 mkdir Robotcito  # opcional, crea la carpeta si no existe
 cd Robotcito
-git clone https://github.com/Paola0601/Robot-Educativo.git
-cd Robot-Educativo
+git clone https://github.com/Paola0601/Proyecto-de-Arquitectura-de-computadoras.git
+cd Proyecto-de-Arquitectura-de-computadoras
 ```
 
-Si no dispones de `git`, puedes descargar el ZIP desde la página del repositorio en GitHub y extraerlo en la carpeta que prefieras. Luego navega a la carpeta del proyecto (ej. `%USERPROFILE%\Downloads\Robotcito\Robot-Educativo`).
+Si no dispones de `git`, puedes descargar el ZIP desde la página del repositorio en GitHub y extraerlo en la carpeta que prefieras. Luego navega a la carpeta del proyecto.
 
 ## 1) Abrir cmd y situarse en el proyecto
 
@@ -24,19 +28,19 @@ Abre una ventana de `cmd.exe` y cambia al directorio del proyecto. Usa una ruta 
 Si ya estás en la carpeta padre del proyecto:
 
 ```cmd
-cd Robot-Educativo
+cd Proyecto-de-Arquitectura-de-computadoras
 ```
 
 Si lo descargaste siguiendo el ejemplo de clonación anterior, usa:
 
 ```cmd
-cd %USERPROFILE%\Downloads\Robotcito\Robot-Educativo
+cd %USERPROFILE%\Downloads\Robotcito\Proyecto-de-Arquitectura-de-computadoras
 ```
 
 O usa la ruta completa a tu carpeta (sustituye `<ruta>` por la tuya):
 
 ```cmd
-cd C:\ruta\al\proyecto\Robot-Educativo
+cd C:\ruta\al\proyecto\Proyecto-de-Arquitectura-de-computadoras
 ```
 
 ## 2) Crear el entorno virtual
@@ -102,4 +106,3 @@ Puedo añadir un `setup.bat` para automatizar la creación del entorno y la inst
 ---
 
 Si quieres, ejecuto ahora un `pip install -r requirements.txt` en tu `EntornoVirtual` (dímelo) o preparo scripts de ayuda adicionales.
-
